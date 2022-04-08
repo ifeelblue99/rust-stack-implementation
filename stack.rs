@@ -3,7 +3,7 @@ struct Stack<T> {
 }
 impl<T> Stack<T>{
   fn new()-> Self{
-    Stack{stack: vec![]}
+    Stack{stack: vec![]} 
   }
   fn new_with_capacity(max_size: usize)-> Self{
     Self {
